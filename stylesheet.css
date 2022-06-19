@@ -1,0 +1,728 @@
+*{
+    margin: 0px;
+    padding: 0;
+    animation: screenfade 0.3s;
+}
+
+body{
+    background-image: url(splashbackground.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 1px;
+}
+
+
+/*************************************************************************************************LANDING PAGE*****************************************************************************************************************************/
+
+
+.splashtitle h1{
+
+    font-size: 60px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    letter-spacing: 1.5px;
+}
+
+
+
+.splashtitle a{
+    transition: all 0.5s;
+    font-size: 40px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+}
+
+.splashtitle a:hover{
+    transition: all 0.5s;
+    opacity: 0.5;
+}
+
+
+
+/*************************************************************************************************ABOUT ME PAGE**************************************************************************************************************************/
+
+
+.centertext {
+   
+   position: absolute;
+   width: 40%;
+   left: calc(50vw - 20%);
+   top: 25%;
+
+
+}
+
+.centertext p {
+  
+   text-align: center;
+   color: white;
+   font-weight: 100;
+   font-size: 25px;
+   line-height: 1.6;
+
+}
+
+.centertextmobile {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.worklink{
+   
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center ;
+   transition: all 0.5s;
+}
+
+.worklink ul{
+    
+    transition: all 0.5s;
+    margin: auto;
+    position: absolute;
+    top: 25vh;
+}
+
+.worklink li{
+   transition: all 0.5s; 
+   padding: 2rem;
+}
+
+.worklink a{
+    
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 40px;
+    text-decoration: none;
+    text-align: center;
+    list-style-type: none;
+}
+
+.worklink li:hover{
+    
+    transition: all 0.8s;
+    color: aqua;
+
+    
+ }
+
+
+/*************************************************************************************************SIDE NAV BAR*****************************************************************************************************************************/
+
+.navbar{
+    
+    transition: all 0.5s;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.555);
+    width: 20vw;
+    height: 100vh;
+    text-align: left;
+    animation: fadein 0.6s;
+
+
+}
+
+.navbar.active{
+    display: flex;
+    transition: all 0.5s;
+}
+
+.navbar li{
+
+    transition: all 0.5s;
+    list-style-type: none;
+    transform: translateY(25vh);
+    padding: 2rem;
+}
+
+.navbar a{
+    transition: all 0.5s;
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+}
+
+.navbar a:hover{
+    
+    transition: all 0.5s;
+    color: rgb(151, 151, 151);
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    
+}
+
+
+
+
+
+/*************************************************************************************************HAMBURGER MENU**************************************************************************************************************************/
+
+.toggle-button{
+    transition: all 0.5s;
+    display: flex;
+    position: absolute;
+    top: 1.5rem;
+    left: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50px;
+    height: 41px;
+
+}
+
+.toggle-button:hover{
+
+    transition: all 0.5s;
+    opacity: 0.6;
+    display: flex;
+    position: absolute;
+    top: 1.5rem;
+    left: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50px;
+    height: 41px;
+
+}
+
+
+.bar{
+
+    width: 100%;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+
+
+/*************************************************************************************************CONTACT PAGE FOOTER**********************************************************************************************************************/
+
+.footerlink{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.footerlink a{
+    text-decoration: none;
+}
+
+.footerlink img{
+    padding: 5px;
+    transition: all 0.25s; 
+    opacity: 0.6;
+    width: 75px;
+    height: 75px;
+}
+
+.footerlink img:hover{
+
+    transition: all 0.2s;
+    opacity: 1;
+    transform: translateY(-2px);
+}
+
+
+.contactbutton{
+    transition: all 0.5s;
+    margin: auto;
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vw;
+    color: white;
+    padding: 1rem;
+    background-color: black;
+    border: 1px solid black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.contactbutton:hover{  
+
+   background-color: pink;
+   border: 1px groove pink; 
+   transition: all 0.5s;
+   cursor: pointer;
+   color: black;
+
+}
+
+.centertext a{
+    text-decoration: none;
+}
+
+
+
+/************************************************************************************************* GALLERY CODE ****************************************************************************************************************************/
+
+
+    .gallerycontainer {
+        
+        transition: all 0.5s;
+        position: absolute;
+        width: 80%;
+        height: 100vh;
+        margin: auto;
+        left: calc(50vw - 40%);
+        top: 10vh;
+        display: block;
+        padding-bottom: 50px;
+        
+    }
+
+    .gallerycontainer.active {
+        
+        transition: all 0.65s;
+        transform: translateX(9.5vw);
+    }
+
+    .galleryitem {
+        
+        transition: all 0.5s;
+        opacity: 0.4;
+        padding: 0.5rem;
+        width: 500px;
+        height: 500px;
+        border-radius: 25px;
+    }
+
+
+    .galleryitem:hover {
+        
+        transition: all 0.5s;
+        opacity: 1;
+        transform: translateY(-2px);
+    }
+
+
+
+
+
+
+/*************************************************************************************************KEYFRAME ANIMATIONS*********************************************************************************************************************/
+
+@keyframes fadein {
+
+    from {transform: translateX(-1000px);}
+    to {transform: translateX(0);}
+    
+}
+
+
+@keyframes screenfade {
+
+    from {opacity: 0}
+    to{opacity: 100}
+    
+}
+
+/*************************************************************************************************MEDIA QUERIES**************************************************************************************************************************/
+
+/* 4K Resolution media Query */
+
+
+
+@media (max-width: 3000px) and (min-width: 2160px) {
+
+    .centertext p{
+        font-size: 60px;
+    }
+
+    .worklink li{
+        font-size: 60px;
+    }
+
+    .gallerycontainer{
+        transition: all 0.5s;
+        position: absolute;
+        width: 80%;
+        height: 100vh;
+        margin: auto;
+        left: calc(50vw - 30%);
+        top: 10vh;
+        display: block;
+        padding-bottom: 50px;
+    }
+
+    .navbar a{
+        font-size: 60px;
+    }
+
+    .contactbutton{
+        font-size: 60px;
+        width: 50%;
+    }
+
+    .footerlink img{
+
+        width: 125px;
+        height: 125px;
+    }
+
+}
+
+
+
+
+/************************************MEDIA QUERIES***********************************************NAVBAR & BUTTON - MOBILE*******************************************************************************************************************/
+@media (max-width: 420px) {
+
+    .toggle-button{
+        
+        transition: all 0.5s;
+        display: flex;
+        position: absolute;
+        top: 1.5rem;
+        left: 1rem;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 20px;
+    
+    }
+
+    .toggle-button:hover{
+        transition: all 0.5s;
+        opacity: 0.6;
+        display: flex;
+        position: absolute;
+        top: 1.5rem;
+        left: 1rem;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 20px;
+
+    
+    }
+    
+    .bar{
+        width: 100%;
+        height: 4px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+    }
+
+
+
+    .navbar{
+        
+        transition: all 0.5s;
+        display: none;
+        background-color: rgba(0, 0, 0, 0.555);
+        width: 30vw;
+        height: 100vh;
+        text-align: left;
+        animation: fadein 0.6s;
+    
+    
+    }
+    
+    .navbar.active{
+        display: flex;
+        transition: all 0.5s;
+    }
+    
+    .navbar li{
+    
+        list-style-type: none;
+        transform: translateY(12.5vh);
+        padding: 1rem;
+        text-align: left;
+    }
+    
+    .navbar a{
+        transition: all 0.5s;
+        color: white;
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        font-weight: 100;
+        letter-spacing: 1.5px;
+    }
+    
+    .navbar a:hover{
+        
+        transition: all 0.5s;
+        color: rgb(151, 151, 151);
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 100;
+        
+    }
+
+    
+/************************************MEDIA QUERIES**************************************************LANDING PAGE AND TITLES - MOBILE*********************************************************************************************************/
+
+    .splashtitle h1{
+
+        font-size: 15px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: rgb(253, 87, 87);
+        text-align: center;
+        position: absolute;
+        right: 30px;
+        top: 10px;
+        letter-spacing: 1.5px;
+    }
+    
+    
+    .splashtitle a{
+        transition: all 0.5s;
+        color: white;
+    }
+
+    
+    .splashtitle a:hover{
+        transition: all 0.5s;
+        opacity: 0.5;
+    }
+
+    .splashtitle a{
+        transition: all 0.5s;
+        font-size: 15px;
+        font-weight: 100;
+        text-transform: uppercase;
+        color: rgb(253, 87, 87);
+        text-align: center;
+        position: absolute;
+        right: 30px;
+        top: 10px;
+        letter-spacing: 1.5px;
+        text-decoration: none;
+    }
+
+/************************************MEDIA QUERIES**************************************************ABOUT ME PAGE AND TEXT CENTRED - MOBILE**************************************************************************************************/
+    
+    .centertext{
+        display: none;
+    }
+
+    .centertextmobile {
+        
+        transition: all 0.5s;
+        display: flex;
+        position: absolute;
+        width: 90%;
+        left: calc(50vw - 45%);
+        top: 15%;
+        opacity: 1;
+
+     }
+     
+     .centertextmobile p {
+       
+        text-align: center;
+        color: white;
+        font-weight: 100;
+        font-size: 20px;
+        line-height: 1.6;
+     
+     }
+
+
+     .centertextmobile.active {
+        
+        transition: all 0.5s;
+        opacity: 0;
+
+     }
+
+
+/************************************MEDIA QUERIES**************************************************WORKLINKS / PORTFOLIO PAGE LINKS - MOBILE************************************************************************************************/
+
+     .worklink{
+        transition: all 0.5s;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center ;
+     }
+
+     .worklink.active {
+         transition: all 0.5s;
+         opacity: 0;
+
+     }
+     
+     .worklink ul{
+         
+         margin: auto;
+         position: absolute;
+         top: 15vh;
+     }
+     
+     .worklink li{
+        transition: all 0.5s; 
+        padding: 3rem;
+     }
+     
+     .worklink a{
+         
+         color: white;
+         font-family: 'Times New Roman', Times, serif;
+         font-weight: 100;
+         font-size: 25px;
+         text-decoration: none;
+         text-align: center;
+         list-style-type: none;
+         
+     }
+     
+     .worklink li:hover{
+         
+         transition: all 0.8s;
+         color: aqua;
+     
+         
+      }
+
+
+/************************************MEDIA QUERIES**************************************************FOOTER LINKS AND IMAGES - MOBILE ********************************************************************************************************/
+
+      .footerlink{
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+    }
+    
+    .footerlink a{
+        text-decoration: none;
+    }
+    
+    .footerlink img{
+        padding: 1px;
+        transition: all 0.25s; 
+        opacity: 0.6;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .footerlink img:hover{
+    
+        transition: all 0.2s;
+        opacity: 1;
+        transform: translateY(-2px);
+    }
+
+
+/************************************MEDIA QUERIES**************************************************FOOTER LINKS AND IMAGES - MOBILE ********************************************************************************************************/
+
+
+    .gallerycontainer {
+        
+        transition: all 0.5s;
+        position: absolute;
+        width: 80%;
+        height: 100vh;
+        margin: auto;
+        left: calc(50vw - 40%);
+        top: 10vh;
+        display: block;
+        padding-bottom: 50px;
+        
+    }
+
+    .gallerycontainer.active {
+        
+        transition: all 0.65s;
+        transform: translateX(9.5vw);
+    }
+
+    .galleryitem {
+        
+        float: right;
+        transition: all 0.5s;
+        opacity: 1;
+        padding: 0.5rem;
+        width: 200px;
+        height: 200px;
+        
+    }
+
+
+    .galleryitem:hover {
+        
+        transition: all 0.5s;
+        opacity: 1;
+        transform: translateY(-2px);
+    }
+
+
+    
+.contactbuttonmobile{
+    
+    width: 50vw;
+    position: fixed;
+    bottom: 50vh;
+    left: calc(50vw - 25vw);
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vw;
+    color: white;
+    padding: 1rem;
+    background-color: black;
+    border: 1px solid black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.contactbuttonmobile:hover{  
+
+   background-color: pink;
+   transition: all 0.5s;
+   cursor: pointer;
+   color: black;
+
+}
+
+.centertext a{
+    text-decoration: none;
+}
+
+
+
+
+}
